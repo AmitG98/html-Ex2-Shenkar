@@ -100,3 +100,98 @@ nav a:hover {
     font-weight: 700;
 }
 
+footer{
+    background-color: #EFECFF;
+    height: 287px;
+    margin-top: 2585px;
+    display: flex;
+}
+
+h2 {
+    color: #333;
+    font-family: Gruppo;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 155.556% */
+    text-transform: uppercase;
+}
+
+#footer-links-section {
+    padding-left: 32px;
+    padding-top: 32px;
+    margin-bottom: 24px;
+    height: 122px;
+}
+
+#footer-links-section ul {
+    list-style: none;
+}
+
+#footer-links-section ul li{
+    height: 22px;
+    margin-bottom: 8px;
+}
+
+#footer-links-section a {
+    color: #333;
+    font-family: Gruppo;
+    font-family: Gruppo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#footer-links-section ul li:first-child {
+    margin-top: 16px;
+}
+
+#footer-social-links-section {
+    padding-left: 150px;
+    padding-top: 32px;
+}
+
+#footer-social-links-section ul {
+    list-style: none;
+}
+
+#footer-social-links-section ul li {
+    height: 22px;
+    margin-bottom: 8px;
+}
+
+#footer-social-links-section ul li:first-child {
+    margin-top: 16px;
+}
+
+#footer-social-links-section a{
+    color: #333;
+    font-family: Gruppo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+#footer-social-icons-section {
+    display: block;
+    margin-top: 182px;
+    padding-left: 32px;
+    position: absolute;
+}
+
+#footer-social-icons-section a{
+    padding-right: 24px;
+}
+
+#footer-social-icons-section p{
+    padding-top: 16px;
+    color: #333;
+    font-family: Gruppo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
