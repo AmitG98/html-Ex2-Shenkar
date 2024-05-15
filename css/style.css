@@ -14,21 +14,26 @@ header, main, footer, nav, aside, section, div  {
 }
   
 body {
-    background-color: aquamarine;
+    background-color: #ffffff;
 }
 
 header {
     height: 128px;
     background-color: white;
     padding-top: 1px;
-    /* position: relative; */
     display: flex;
 }
 
-#wrapper {
-    margin: 0 auto;
-    /* width: 1200px; */
+.wrapper {
+    margin: 0px, auto;
+    width: 1200px;
 }
+
+a {
+    text-decoration: none;
+}
+
+/* header */
 
 #logo {
     display: block;
@@ -43,11 +48,7 @@ header {
     margin-left: 32px;
 }
 
-a {
-    text-decoration: none;
-}
-
-#logo span {
+#logoWord {
     display: block;
     color: #3E3F43;
     font-family: Gruppo;
@@ -58,12 +59,10 @@ a {
     letter-spacing: 6px;
     width: 191px;
     height: 33px;
-    padding-left: 61px;
-    padding-top: 21px;
+    padding-top: 53px;
 }
 
 nav {
-    /* align-items: center; */
     margin-top: 51px;
 }
 
@@ -88,17 +87,113 @@ nav a:hover {
 }
 
 #Home1 {
-    margin-left: 323px;
+    margin-left: 132px;
     font-weight: 700;
 }
 
 #Home2 {
-    margin-left: 323px;
+    margin-left: 132px;
 }
 
 #Our-jewelry {
     font-weight: 700;
 }
+
+/* main-section cover photo */
+
+main {
+    display: flex;
+    width: 100%;
+    height: 797;
+    background-image: url(../images/coverPhoto.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: auto;
+    
+}
+
+#cover-photo-section h1{
+    position: absolute;
+    align-items: center;
+    top: 160px;
+    left: 32px;
+    width: 448px;
+    height: 120px;
+    color: #612999;
+    font-family: Gruppo;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+#cover-photo-section p{
+    position: absolute;
+    top: 281px;
+    left: 32px;
+    width: 448px;
+    height: 99px;
+    color: #000;
+    font-family: Gruppo;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+/* main- section paragraphs */
+
+#paragraphs-section {
+    margin-top: 829px;
+    margin-left: 32px;
+}
+
+#paragraphs-section h2 {
+    color: #612999;
+    font-family: Gruppo;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; /* 100% */
+    width: 136.443px;
+    height: 40px;
+    flex-shrink: 0;
+    margin-bottom: 32px;
+}
+
+#paragraphs-section p {
+    color: #000;
+    text-align: justify;
+    font-family: Gruppo;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140.625%; /* 28.125px */
+    width: 1136px;
+    height: 85px;
+    flex-shrink: 0;
+    margin-bottom: 24px;
+}
+
+/* main- section cards */
+
+#cards-section {
+    /* background-color: #3E3F43; */
+    display: flex;
+    margin-top: 39px;
+    margin-left: 32px;
+}
+
+#cards-section h2 {
+    color: #612999;
+    font-family: Gruppo;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; /* 100% */
+}
+
+/* footer */
 
 footer{
     background-color: #EFECFF;
@@ -107,7 +202,17 @@ footer{
     display: flex;
 }
 
-h2 {
+#footer-links-section h2 {
+    color: #333;
+    font-family: Gruppo;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 155.556% */
+    text-transform: uppercase;
+}
+
+#footer-social-links-section h2 {
     color: #333;
     font-family: Gruppo;
     font-size: 18px;
@@ -195,3 +300,4 @@ h2 {
     font-weight: 600;
     line-height: normal;
 }
+
