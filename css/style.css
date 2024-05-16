@@ -24,9 +24,11 @@ header {
     display: flex;
 }
 
-.wrapper {
-    margin: 0px, auto;
-    width: 1200px;
+#wrapper {
+    margin: 0 auto;
+    /* width: calc(100%-64px); */
+    /* vertical-align:middle; */
+    /* width: 1200px; */
 }
 
 a {
@@ -57,7 +59,7 @@ a {
     font-weight: 700;
     line-height: normal;
     letter-spacing: 6px;
-    width: 191px;
+    /* width: 191px; */
     height: 33px;
     padding-top: 53px;
 }
@@ -79,7 +81,7 @@ nav a {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-right: 62px;
+    margin-right: 64px;
 }
 
 nav a:hover {
@@ -87,12 +89,12 @@ nav a:hover {
 }
 
 #Home1 {
-    margin-left: 132px;
+    margin-left: 135px;
     font-weight: 700;
 }
 
 #Home2 {
-    margin-left: 132px;
+    margin-left: 135px;
 }
 
 #Our-jewelry {
@@ -101,15 +103,17 @@ nav a:hover {
 
 /* main-section cover photo */
 
-main {
-    display: flex;
+/* main {
+    display: block;
+} */
+
+#cover-photo-section {
     width: 100%;
-    height: 797;
+    height: 797px;
     background-image: url(../images/coverPhoto.png);
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: top left;
     background-size: auto;
-    
 }
 
 #cover-photo-section h1{
@@ -144,7 +148,7 @@ main {
 /* main- section paragraphs */
 
 #paragraphs-section {
-    margin-top: 829px;
+    margin-top: 32px;
     margin-left: 32px;
 }
 
@@ -177,20 +181,140 @@ main {
 
 /* main- section cards */
 
-#cards-section {
-    /* background-color: #3E3F43; */
+.container {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
     margin-top: 39px;
     margin-left: 32px;
 }
 
-#cards-section h2 {
+.container h2 {
+    width: 100%;
+    /* padding-right: 100%; */
+    display: block;
+    height: 40px;
     color: #612999;
     font-family: Gruppo;
     font-size: 40px;
     font-style: normal;
     font-weight: 500;
     line-height: 40px; /* 100% */
+    margin-bottom: 27px;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: flex-start; */
+    width: 376px;
+    height: 496px;
+    flex-shrink: 0;
+    border-radius: 38px;
+    background: #EFECFF;
+    box-shadow: 0px 6px 40px 0px rgba(57, 132, 187, 0.05);
+    margin-right: 19px;
+    margin-bottom: 27px;
+
+}
+
+.container :last-child {
+    margin-bottom: 32px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+.card > img {
+    width: 389px;
+    height: 281px;
+    flex-shrink: 0;
+    border-radius: 38px;
+}
+
+.card h4 {
+    color: #000;
+    text-align: justify;
+    font-family: Gruppo;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 21px;
+    margin-left: 32px;
+    margin-bottom: 9px;
+}
+
+.card > p {
+    color: #333;
+    font-family: Gruppo;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 315px;
+    height: 64px;
+    flex-shrink: 0;
+    margin-left: 32px;
+    margin-bottom: 9px;
+}
+
+#price {
+    color: #612999;
+    text-align: justify;
+    font-family: Gruppo;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card a {
+    /* display: block; */
+    background-image: url("../images/Ellipse-cart-1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 63px;
+    height: 63px;
+    flex-shrink: 0;
+    position: absolute;
+    margin-left: 262px;
+    margin-top: 406px;
+}
+
+#basketImg {
+    background-image: url("../images/shopping-basket1.png");
+    position: absolute;
+    width: 31px;
+    height: 31px;
+    flex-shrink: 0;
+    margin-left: 278px;
+    margin-top: 420px;
+}
+
+#heartCircle {
+    background-image: url("../images/Ellipse\ heart\ 1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 47px;
+    height: 47px;
+    flex-shrink: 0;
+    position: absolute;
+    margin-left: 290px;
+    margin-top: 40px;
+}
+
+#heartImage {
+    background-image: url("../images/heart\ 1.png");
+    position: absolute;
+    fill: #F51264;
+    width: 23px;
+    height: 20px;
+    flex-shrink: 0;
+    margin-left: 302px;
+    margin-top: 54px;
+
 }
 
 /* footer */
@@ -198,8 +322,12 @@ main {
 footer{
     background-color: #EFECFF;
     height: 287px;
-    margin-top: 2585px;
+    /* margin-top: 2585px; */
     display: flex;
+    clear: both;
+    position: relative;
+    /* height: 200px; */
+    /* margin-top: -200px; */
 }
 
 #footer-links-section h2 {
