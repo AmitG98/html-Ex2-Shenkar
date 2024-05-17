@@ -247,7 +247,7 @@ nav a:hover {
     margin-bottom: 9px;
 }
 
-#price {
+.price {
     color: #612999;
     text-align: justify;
     font-family: Gruppo;
@@ -257,7 +257,7 @@ nav a:hover {
     line-height: normal;
 }
 
-#ellipse {
+.ellipse {
     background-image: url("../images/Ellipse-cart-1.png");
     background-repeat: no-repeat;
     background-size: contain;
@@ -269,7 +269,7 @@ nav a:hover {
     margin-top: 406px;
 }
 
-#basket-button {
+.basket-button {
     background-image: url("../images/shopping-basket1.png");
     position: absolute;
     width: 31px;
@@ -279,7 +279,7 @@ nav a:hover {
     margin-top: 420px;
 }
 
-#heartCircle {
+.heartCircle {
     background-image: url("../images/Ellipse\ heart\ 1.png");
     background-repeat: no-repeat;
     background-size: contain;
@@ -291,7 +291,7 @@ nav a:hover {
     margin-top: 40px;
 }
 
-#heart-button {
+.heart-button {
     background-image: url("../images/heart\ 1.png");
     position: absolute;
     fill: #F51264;
