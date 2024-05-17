@@ -24,12 +24,12 @@ header {
     display: flex;
 }
 
-#wrapper {
+/* #wrapper {
     margin: 0 auto;
     /* width: calc(100%-64px); */
     /* vertical-align:middle; */
     /* width: 1200px; */
-}
+/* } */ 
 
 a {
     text-decoration: none;
@@ -59,7 +59,6 @@ a {
     font-weight: 700;
     line-height: normal;
     letter-spacing: 6px;
-    /* width: 191px; */
     height: 33px;
     padding-top: 53px;
 }
@@ -103,10 +102,6 @@ nav a:hover {
 
 /* main-section cover photo */
 
-/* main {
-    display: block;
-} */
-
 #cover-photo-section {
     width: 100%;
     height: 797px;
@@ -148,8 +143,9 @@ nav a:hover {
 /* main- section paragraphs */
 
 #paragraphs-section {
-    margin-top: 32px;
+    margin-top: 32px; 
     margin-left: 32px;
+    /* margin: 32px auto; */
 }
 
 #paragraphs-section h2 {
@@ -191,7 +187,6 @@ nav a:hover {
 
 .container h2 {
     width: 100%;
-    /* padding-right: 100%; */
     display: block;
     height: 40px;
     color: #612999;
@@ -206,7 +201,6 @@ nav a:hover {
 .card {
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: flex-start; */
     width: 376px;
     height: 496px;
     flex-shrink: 0;
@@ -270,20 +264,19 @@ nav a:hover {
     line-height: normal;
 }
 
-.card a {
-    /* display: block; */
+#ellipse {
     background-image: url("../images/Ellipse-cart-1.png");
     background-repeat: no-repeat;
     background-size: contain;
+    position: absolute;
     width: 63px;
     height: 63px;
     flex-shrink: 0;
-    position: absolute;
     margin-left: 262px;
     margin-top: 406px;
 }
 
-#basketImg {
+#basket-button {
     background-image: url("../images/shopping-basket1.png");
     position: absolute;
     width: 31px;
@@ -297,15 +290,15 @@ nav a:hover {
     background-image: url("../images/Ellipse\ heart\ 1.png");
     background-repeat: no-repeat;
     background-size: contain;
+    position: absolute;
     width: 47px;
     height: 47px;
     flex-shrink: 0;
-    position: absolute;
     margin-left: 290px;
     margin-top: 40px;
 }
 
-#heartImage {
+#heart-button {
     background-image: url("../images/heart\ 1.png");
     position: absolute;
     fill: #F51264;
@@ -315,6 +308,93 @@ nav a:hover {
     margin-left: 302px;
     margin-top: 54px;
 
+}
+
+/* page2-design */
+
+/* cover-photo-section */
+
+#photos-section img{
+    height: 300px; 
+    flex-shrink: 0;
+    border: 4px solid #E6DBFE;
+    margin-left: 32px;
+    margin-bottom: 32px;
+}
+
+/* list-jewelry-section */
+
+#list-jewelry-section {
+    margin-left: 32px;
+}
+
+#list-jewelry-section h2{
+    width: 275px;
+    color: #612999;
+    font-family: Gruppo;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; /* 100% */
+    margin-bottom: 32px;
+}
+
+#list-jewelry-section ul{
+    list-style: none;
+    
+}
+
+
+#list-jewelry-section ul li p{
+    position: absolute;
+    display: inline;
+    color: #000;
+    font-family: Gruppo;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px; /* 58.333% */
+    height: 18px;
+    margin-top: 31px;
+
+}
+
+#group-icon {
+    position: absolute;
+    display: block;
+    margin-top: 20px;
+    margin-left: 26px;
+    width: 29px;
+    height: 42.385px;
+    flex-shrink: 0;
+}
+
+#ellipse-page2{
+    height: 82px;
+    width: 82px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+}
+
+/* your-choise-section*/
+
+#your-choise-section h2{
+    color: #612999;
+    font-family: Gruppo;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; /* 100% */
+    margin-left: 32px;
+    margin-bottom: 32px;
+}
+
+#your-choise-section section{
+    background: #EFECFF;
+    width: 1136px;
+    height: 503px;
+    flex-shrink: 0;
+    margin-left: 32px;
 }
 
 /* footer */
