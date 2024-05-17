@@ -17,19 +17,12 @@ body {
     background-color: #ffffff;
 }
 
-header {
-    height: 128px;
-    background-color: white;
-    padding-top: 1px;
-    display: flex;
-}
 
-/* #wrapper {
+#wrapper {
+    display: flex;
+    justify-content: center;
     margin: 0 auto;
-    /* width: calc(100%-64px); */
-    /* vertical-align:middle; */
-    /* width: 1200px; */
-/* } */ 
+} 
 
 a {
     text-decoration: none;
@@ -37,12 +30,17 @@ a {
 
 /* header */
 
+header {
+    height: 128px;
+    background-color: white;
+    padding-top: 1px;
+    display: flex;
+}
+
 #logo {
-    display: block;
     background: url("../images/ring-logo.png");
     background-repeat: no-repeat;
     background-size: contain;
-    display: block;
     width: 64px;
     height: 64px;
     flex-shrink: 0;
@@ -51,7 +49,7 @@ a {
 }
 
 #logoWord {
-    display: block;
+    display: inline;
     color: #3E3F43;
     font-family: Gruppo;
     font-size: 24px;
@@ -64,12 +62,13 @@ a {
 }
 
 nav {
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 51px;
-}
-
-#nav-bar {
     display: flex;
+    justify-content:center;
     list-style-type: none;
+    text-align: center;
 }
 
 nav a {
@@ -87,13 +86,8 @@ nav a:hover {
     color: #a87fd1;
 }
 
-#Home1 {
-    margin-left: 135px;
+#Home {
     font-weight: 700;
-}
-
-#Home2 {
-    margin-left: 135px;
 }
 
 #Our-jewelry {
@@ -356,7 +350,6 @@ nav a:hover {
     line-height: 14px; /* 58.333% */
     height: 18px;
     margin-top: 31px;
-
 }
 
 #group-icon {
@@ -376,38 +369,98 @@ nav a:hover {
     margin-bottom: 16px;
 }
 
-/* your-choise-section*/
+/* Contact section*/
 
-#your-choise-section h2{
+#contact-section h2{
     color: #612999;
     font-family: Gruppo;
     font-size: 40px;
     font-style: normal;
     font-weight: 500;
     line-height: 40px; /* 100% */
+    margin-top: 16px;
     margin-left: 32px;
     margin-bottom: 32px;
 }
 
-#your-choise-section section{
+#form-section{
     background: #EFECFF;
     width: 1136px;
     height: 503px;
     flex-shrink: 0;
     margin-left: 32px;
+    margin-bottom: 198px;
+
 }
+
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.form-container {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-container label {
+    /* flex: 1; */
+    /* font-size: 16px; */
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    color: #000;
+    font-family: Gruppo;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px; /* 58.333% */
+    height: 20px;
+}
+
+.form-container input {
+    /* display: block; */
+    /* flex: 2; */
+    padding: 8px;
+    font-size: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#submit-button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-family: Gruppo;
+    font-size: 20px;
+    color: #fff;
+    background-color:#000000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#submit-button:hover {
+    box-shadow: 0px 6px 40px 0px rgba(196, 200, 203, 0.753);
+}
+
+/* #contact-section section:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+} */
+
+
 
 /* footer */
 
 footer{
     background-color: #EFECFF;
     height: 287px;
-    /* margin-top: 2585px; */
     display: flex;
     clear: both;
     position: relative;
-    /* height: 200px; */
-    /* margin-top: -200px; */
 }
 
 #footer-links-section h2 {
