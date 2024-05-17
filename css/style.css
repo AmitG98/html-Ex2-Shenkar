@@ -348,7 +348,7 @@ nav a:hover {
     margin-top: 31px;
 }
 
-#group-icon {
+.group-icon {
     position: absolute;
     display: block;
     margin-top: 20px;
@@ -358,7 +358,7 @@ nav a:hover {
     flex-shrink: 0;
 }
 
-#ellipse-page2{
+.ellipse-page2{
     height: 82px;
     width: 82px;
     margin-right: 16px;
