@@ -19,7 +19,7 @@ body {
 
 #wrapper {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     margin: 0 auto;
 } 
 
@@ -61,7 +61,7 @@ header {
 }
 
 nav {
-    margin-left: auto;
+    margin-left: 135px;
     margin-right: auto;
     margin-top: 51px;
     display: flex;
@@ -228,12 +228,13 @@ nav a:hover {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-top: 21px;
+    height: 35px;
+    margin-top: 14px;
     margin-left: 32px;
-    margin-bottom: 9px;
+    margin-bottom: 7px;
 }
 
-.card p {
+.cardParagraph {
     color: #333;
     font-family: Gruppo;
     font-size: 18px;
@@ -244,7 +245,7 @@ nav a:hover {
     height: 64px;
     flex-shrink: 0;
     margin-left: 32px;
-    margin-bottom: 9px;
+    margin-bottom: 12px;
 }
 
 .price {
@@ -255,6 +256,8 @@ nav a:hover {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-left: 32px;
+    padding-bottom: 36px;
 }
 
 .ellipse {
@@ -265,7 +268,7 @@ nav a:hover {
     width: 63px;
     height: 63px;
     flex-shrink: 0;
-    margin-left: 262px;
+    margin-left: 280px;
     margin-top: 406px;
 }
 
@@ -275,7 +278,7 @@ nav a:hover {
     width: 31px;
     height: 31px;
     flex-shrink: 0;
-    margin-left: 278px;
+    margin-left: 296px;
     margin-top: 420px;
 }
 
