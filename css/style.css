@@ -280,6 +280,7 @@ nav a:hover {
     flex-shrink: 0;
     margin-left: 296px;
     margin-top: 420px;
+    cursor: pointer;
 }
 
 .heartCircle {
@@ -301,8 +302,21 @@ nav a:hover {
     width: 23px;
     height: 20px;
     flex-shrink: 0;
+    cursor: pointer;
+}
+.add-fav {
+    display: flex;
+    position: absolute;
     margin-left: 302px;
-    margin-top: 54px;
+    margin-top: 54px; 
+}
+
+.favorite-checkbox {
+    display: none; /* Hide the checkbox */
+}
+
+.favorite-checkbox:checked + .heart-button {
+    background-image: url("../images/fill-heart.png");
 }
 
 /* MAIN-PAGE2 */
@@ -535,7 +549,7 @@ footer{
     position: absolute;
 }
 
-#footer-social-icons-section a {
+#footer-social-icons-section a img{
     padding-right: 24px;
 }
 
